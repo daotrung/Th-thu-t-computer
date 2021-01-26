@@ -1,0 +1,9 @@
+Bước 1 : 
+- Trên thanh tìm kiếm Start Menu gõ : Windows PowerShell .
+Bước 2 : 
+- gõ câu lệnh : netsh wlan show profile 
+- sẽ show ra hết tên tất cả các wifi mà bạn từng kết .
+Bước 3 : 
+- gõ tiếp câu lệnh : netsh wlan show profile "ten wifi cần biết" key=clear 
+- Hiện ra một chuỗi các câu lệnh bạn để ý dòng :
++ Sercurity settings => Key content : mật khẩu của bạn trước đó .

@@ -1,0 +1,16 @@
+Cách 1 : 
+- Mở menu start => nhập từ khóa "command" để vào Command Prompt chạy quyền run as administrator 
+- Trong cửa sổ nhập : netsh wlan show interfaces 
+- Trên mục Signal : có chứa phần trăm (75% là mức trung bình );
+
+Cách 2 : 
+
+-Vào PowerShell (Tìm kiếm như trên)
+- Trong cửa sổ nhập : (netsh wlan show interfaces) -Match ‘^\s+Signal’ -Replace ‘^\s+Signal\s+:\s+’,”
+- Sẽ hiển thị cho bạn .
+
+Notes : Hầu hết các kiểm tra tốc độ đều phụ thuộc vào 3 yếu tố :
++ Ping
++ upload
++ tải về 
+

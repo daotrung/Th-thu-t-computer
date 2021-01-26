@@ -1,0 +1,20 @@
+chuan bi : 
+b1 : tai git ve máy 
+b2 : tạo tài khoản trên github , cùng lúc đó tạo 1 kho chứa , kèm đó tích ô có file readMe.txt (new repositories)
+b3 : Bạn phải clone về máy : tức là tạo đường dẫn từ file cần upload lên và kho bạn vừa tạo trên github
+  + cách làm : tạo 1 thư mục bất kỳ , vào trong đó ấn chuột phải 
+         - Chọn git BashHere 
+         - nhập lệnh git clone : tức là sao chép cái file readMe.txt bạn đã tạo trong ổ chứa ở trên , đông thời đã thiết lập đường dẫn
+
+         - Nếu bạn thấy 1 file .git mờ và file readMe.txt ở trên xuất hiện tức là bạn đã thành công 
+         - 
+
+
+upload : 
+b1 : tiếp tục nhập lệnh ở chính cái màn hình đen đó 
+b2 : nhap lệnh : 
++ git status : kiem tra file moi can them 
++ git add [ten file] : them vao tren may de git biet
++ git status : kiem tra file da ton tai tren git cua may chua 
++ git commit -m "them ghi chu sau khi them fle"
++ git push : them truc tiep len csdl cua github

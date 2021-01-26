@@ -1,0 +1,49 @@
+-Nguyên nhân : 
++ I.  Quên cập nhật lên phiên bản mới của Win 10 : 
+  Vào Settings qua hình răng cưa (bằng phím tắt có hình cửa sổ window trên bàn phím)
+ => Update and Sercurity => Windows Update => Chọn Check for updates
+
++ II.  Lỗi Adapter khi đã cập nhật đầy đủ : 
+  B1 : 
+    Nhấn tổ hợp phím nút Window + X => Device Manager
+  B2 : 
+- Tìm phần Display Adapter , chọn sẽ hiện ra tên card đồ họa của bạn (của mình là intel UHD Graphics 620) , Click chọn chuột phải vào card 
+- Có 3 mục : Bạn thủ từng mục nếu ko được 
+
+  + Update Driver : Click vào hiện ra hai lựa chọn : Thử từng cái 
+    1. Search automatically  for updated driver software : tìm kiếm driver online .
+
+    2. Browser my computer for driver software : tìm kiếm driver có sẵn trên máy tính . 
+      Nếu cách 1 vẫn ko khắc phục được , bạn đi đến bước này . Sau khi đã chọn :  Browser my computer for driver software => Let me pick from a list of drivers on my computer => Đánh tích chọn tùy chọn “Show compatible hardware”, sau đó chọn “Microsoft basic display adapter” từ menu rồi click chọn Next là xong.
+   
+  + Display Device : Sau khi chọn , click vào Yes, mở lại Adapter => Enable Device để bật lên. 
+  
+  + Unistall device :
+    B1 : 
+      Nhấn vào bạn thực hiện gỡ cài đặt driver => Sau đó Restart lại máy tính .Nó sẽ tự cài đặt lại driver cho bạn . 
+    B2 : 
+      Nếu nó không cài đặt lại => Vào tiếp Device Manager => click tab Action trên thanh menu => sau đó click vào Scan for Hardware Changes để buộc Windows 10 cài đặt lại driver.
+
++ III . Chạy trình khắc phục sự cố :
+   Gõ troubleshoot settings trong menu Start. 
+   Click vào Open và sau đó cuộn xuống trong cửa sổ Troubleshoot Settings cho đến khi tìm thấy Power, click vào nó và sau đó chọn Run the Troubleshooter.
+
++ IV . Kích hoạt driver màn hình mặc định : 
+  -B1:  Để kiểm tra, truy cập vào Device Manager, mở rộng Monitors, 
+  click chuột phải vào Generic PnP Monitor, click vào Enable Device trong menu ngữ cảnh.
+  -B2:  Sau đó restart lại máy .
+
++ V . Xóa các thiết bị ẩn trong Pnp
+-B1: Nhấn và giữ phím Windows, sau đó nhấn R. Thao tác này sẽ khởi chạy ứng dụng Run.
+
+-B2: Nhập devmgmt.msc và nhấn OK để mở Device Manager.
+
+-B3: Từ menu Device Manager, nhấp vào View, sau đó chọn Show hidden devices. Nếu bạn đã bật tính năng này, hãy tiếp tục để nó được kích hoạt.
+
+Chọn Show hidden devices
+-B4: Mở rộng Monitors bằng cách nhấp vào biểu tượng mũi tên.
+
+-B5: Nhấp chuột phải vào mọi thiết bị ẩn và chọn Uninstall device. (Các thiết bị ẩn trông mờ hơn các thiết bị bình thường).
+
+-B6: Khởi động lại máy tính và thử điều chỉnh lại độ sáng.
+

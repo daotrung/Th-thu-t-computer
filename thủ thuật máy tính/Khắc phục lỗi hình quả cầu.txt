@@ -1,0 +1,7 @@
+Chạy quyền admin cmd :
+CHạy lần lượt 3 lệnh : 
+netsh winsock reset
+
+netsh int ip reset
+
+ipconfig /flushdns
